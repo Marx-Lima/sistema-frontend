@@ -1,0 +1,10 @@
+button { width: 100%}
+
+input {width: 100%}
+
+.esqueci {
+    float: right;
+    font-size: 13px;
+}
+
+.box {width: 300px}

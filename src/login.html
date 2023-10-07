@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Login</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="login.css" />
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+
+            <img src="logo_maxsupri.png" height="60" />
+            <h1>Login</h1>
+            <form>
+                <label for="txt_email">Email:</label>
+                <input type="email" id="txt_email" name="email" />
+                <br />
+                <label for="txt_senha">Senha:</label>
+                <input type="password" id="txt_senha" name="senha" />
+                <br />
+                <a class="esqueci" href="redefinir-senha.html">Esqueci a senha</a>
+                <br />
+                <button id="b_entrar">Login</button>
+                <br />
+                <a href="cadastro.html">Cadastre-se!</a>
+            </form>
+            <span id="spn_erro" class="erro"></span>
+        </div>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>
